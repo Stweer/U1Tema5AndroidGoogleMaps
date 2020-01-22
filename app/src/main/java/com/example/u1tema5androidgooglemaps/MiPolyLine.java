@@ -26,6 +26,8 @@ public class MiPolyLine extends AppCompatActivity implements OnMapReadyCallback 
   Polyline polyline= null;
   List<LatLng> latLngList= new ArrayList<>();
   List<Marker> markerList = new ArrayList<>();
+  int rojo=0,verde=0,azul=0;
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -60,6 +62,7 @@ public class MiPolyLine extends AppCompatActivity implements OnMapReadyCallback 
         seekazul.setProgress(0);
         seekrojo.setProgress(0);
         seekverde.setProgress(0);
+
       }
     });
   }
