@@ -32,4 +32,17 @@
         android:text="Mapa de Calor"
         android:onClick="MapaCalor"
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ClusterMapque"
+        android:onClick="ClusterMapque"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distancia Lineal"
+        android:onClick="DistanciaLineal"
+        />
+
 </LinearLayout>
