@@ -42,4 +42,8 @@ public class MainActivity extends AppCompatActivity {
     startActivity(new Intent(this, DistanciaDosPuntos.class));
 
   }
+
+//  public void MiFusedLocationClient(View view) {
+//    startActivity(new Intent(this, MiFusedLocationClient.class));
+//  }
 }
